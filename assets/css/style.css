@@ -1,3 +1,9 @@
+html {
+  /* This somehow makes the footer stick to the bottom, putting it in the body selector doesn't have the same effect, I'm not sure why */
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background-image: url("../images/climpek.png");
 }
@@ -10,8 +16,31 @@ body {
   background: #45a8a3;
 }
 
+#lake-image {
+  float: left;
+  width: 400px;
+  margin: 0 20px 20px 0;
+}
+
+main {
+  margin: 80px 0;
+}
+
+main .article-header {
+  color: #45a8a3;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+main article {
+  background-color: #fff;
+
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
 footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   height: 60px;
@@ -19,6 +48,7 @@ footer {
   background-color:#696969;
   color: #3b7572;
   text-align: center;
+  
 }
 
 footer .footer-stripe {

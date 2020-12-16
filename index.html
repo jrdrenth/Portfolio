@@ -20,9 +20,9 @@
         <!-- Bootstrap's javascript file that allows Bootstramp components to work  -->
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
       
-    </head>
+      </head>
 
-    <body>
+      <body>
 
         <!-- Section 1: Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,7 +32,7 @@
                 <a id="name" class="navbar-brand" href="index.html">John Drenth</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPortfolio"
                         aria-controls="navbarPortfolio" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
                 </button>
             
                 <!-- Collapsible button -->
@@ -40,32 +40,53 @@
                     <ul class="navbar-nav ml-auto">
             
                         <!-- The links in the navbar -->
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html">About</a>
                         </li>
               
                     </ul>
-                </div>
-            </div>
-        </nav>    
+                  </div>
+
+              </div>
+          </nav>    
           
-        <main>
-            
-        </main>
+    <!-- Start of container -->
+    <main class="container">
+        <section class="row">
+          <div class="col-md-9">
+            <article>
+              <h1 class="article-header">About Me</h1>
+              <hr />
+              <img src="assets/images/BathtubLake.jpg" alt="John Drenth overlooking Bathtub Lake in the high sierra wilderness" id="lake-image" />
+              <p>
+                As a great outdoors enthusiast I enjoy activities such as waterskiing, wakeboarding, 
+                jet skiing, snowboarding, backpacking, day hiking, bike riding, or just hangin outside
+                for the day.  Some of my favorite locations to visit are Shasta Lake in northern CA,
+                Lake Tahoe, Big Bear, and the beautiful sierra mountains.
+              </p>
+              <br />
+              <p>
+                I also love Hawaii.  The gorgeous, green landscape, warm welcoming air, perfect beaches,
+                and laidback  local culture make it an amazing destination.  Yosemite and Glacier National
+                Parks are a couple more really good ones.  I hope to continue to see and experience all the
+                amazing natural wonders this world offers.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+      <!-- End of container -->
 
         <footer>
             <div class="footer-stripe"></div>
-            <p class="text-muted">
-                &copy; Copyright 2020 John Drenth
-            </p>
+            <p class="text-muted">&copy; Copyright 2020 John Drenth</p>
         </footer>
-
     </body>
 
 </html>
