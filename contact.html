@@ -71,10 +71,28 @@
     <main class="container">
         <section class="row">
           <div class="col-md-9">
-            <form>
-              <h1 class="article-header">Contact</h1>
+            <form class="box">
+              <h1 class="box-header">Contact</h1>
               <hr />
-              
+                <div class="form-group col-sm-8 col-xl-6">
+                  <label for="name-input">Name</label>
+                  <input type="text" class="input form-control" id="name-input" placeholder="Name">
+                </div>
+                <div class="spacer"><br></div>
+                <div class="form-group col-sm-8 col-xl-6">
+                  <label for="email-input">Email</label>
+                  <input type="email" class="input form-control" id="email-input" placeholder="Email">
+                </div>
+                <div class="spacer"><br></div>
+                <div class="form-group col-sm-8 col-xl-6">
+                  <label for="message-input">Message</label>
+                  <!-- NOT SURE HOW TO MAKE THE PAGE GROW WHEN EXPANDING THE TEXTAREA - NEED HELP -->
+                  <textarea class="input form-control" rows="3" id="message-input" placeholder="Message"></textarea>
+                </div>
+                <div class="spacer-lg"><br></div>
+                <div class="form-group col-sm-8">
+                <button class="button">Submit</button>
+              </div>
             </form>
           </div>
         </section>
